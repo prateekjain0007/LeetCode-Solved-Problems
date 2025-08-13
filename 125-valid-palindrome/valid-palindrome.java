@@ -15,7 +15,7 @@ class Solution {
                 continue;
             }
             // Compare characters ignoring case
-         if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
+         if (Character.toUpperCase(s.charAt(left)) != Character.toUpperCase(s.charAt(right))) {
                 return false; // mismatch found
             }
             left++;
